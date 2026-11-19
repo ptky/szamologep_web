@@ -1,0 +1,77 @@
+body {
+    background-color: whitesmoke;
+}
+main {
+    max-width: 400px;
+    margin: auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+#mezo {
+    background-color: rgb(209, 208, 208);
+    padding: 10px;
+    width: 50%;
+    border-radius: 5px;
+    border: none;
+    text-align: right;
+}
+
+
+
+button {
+    padding: 12px;
+    background-color: rgb(230, 228, 228);
+    border: none;
+    border-radius: 6px;
+    width: 15%;
+    height: 50px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    flex: 0 0 75px;
+
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.szamok {
+    flex: 0 0 70%;
+    padding: 20px;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    gap: 10px;
+}
+
+.oldalso_resz {
+    flex: 0 0 20%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.also_sor {
+    display: flex;
+    gap: 10px;
+    flex: 0 0 100%;
+    
+}
